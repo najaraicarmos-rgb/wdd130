@@ -1,3 +1,10 @@
+/* Resetar css do meu projeto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {background-color: darkblue; padding: 10px;}
 nav a{
     color: white;
@@ -10,34 +17,49 @@ main {max-width: 800px;}
 
 
 
-main img {width: 150px;
+main img {
+    width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;}
-    
+    padding: 5px;
+    box-sizing: border-box;
+    float:right
+}
+   
+ p {
+    padding: 0;
+ 
+ }   
 
 aside {
-    width: 300px;
-    margin: 20px;
-    border: 1px solid black;
-    padding: 15px;
-    background-color: #eeeeee;
-    color: #333333;
+    width: 20rem;
+    color: #333
+    text-align; center:
+    position;relative;
 
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
-p {
-    padding: 0;
-}
+ aside h2 {
+    position: absolute;
+    top: 77%;
+    left: 5%;
+ }
+
 
 footer {
-    margin-top: 20px;
+    margin-top: 1em;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Seletor de classe */
+.caixa {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 15px;
 }
