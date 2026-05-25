@@ -35,7 +35,7 @@ footer {
     
     text-align:center;
 
-    background-color var(--cor-secundaria);
+    background-color: var(--cor-secundaria); 
     color: white;
     padding: 16px;
 }
@@ -47,7 +47,7 @@ footer {
     left: 20px;
     right: 20px;
 
-    background-color: rgba(255,255,255,0.8);
+    background-color: var(--cor-secundaria);
     padding: 16px;
 }
 
