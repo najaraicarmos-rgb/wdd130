@@ -4,23 +4,39 @@
     box-sizing: border-box;
 }
 
-header, footer, .grid {
+header, footer, .grid, .aventura-section {
     max-width: 840px;
     margin: 0 auto;
+    width: 100%;
 }
 
-nav { background-color: steelblue; 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .logo {
+    height: 60px;
+    width: auto;
+}
+
+header nav {
+    background-color: steelblue; 
     padding: 10px;
     display: flex;                
     justify-content: space-evenly;
     align-items: center;          
+    width: 100%;
 }
 
-nav a {
+header nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;        
+    font-weight: bold;
 }
 
 h1 {
@@ -39,53 +55,106 @@ h1 {
 main {
     grid-column: 2 / 3;
     width: 100%;
+    padding: 20px 0;
 }
 
-main img {
-    width: 150px;
+.hero-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #000;
+    box-shadow: 0 0 30px gray;
+}
+
+.hero h1 {
+    text-align: center;
+    margin-top: -50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    position: relative;
+    border: none;
+}
+
+.artigo-principal {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.avatar-img {
+    width: 120px;
     height: auto;
     border: 1px solid #000;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-    float: right;
-    margin: 0 0 1rem 1rem;
+    box-shadow: 0 0 20px gray;
 }
 
-aside {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    max-width: 100%;
-    margin: 1em 0; 
-    border: 1px solid #000;
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
+.historia {
+    margin-top: 20px;
+}
+
+.aventura-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+.aventura-galeria {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.aventura-galeria figure {
+    margin: 0;
+    flex: 1;
+    min-width: 0;
     text-align: center;
+    background-color: #f1f3f5;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
+.aventura-galeria figure img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
 }
 
-aside h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.8rem;
-    color: #333;
+.aventura-galeria figcaption {
+    margin-top: 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #495057;
 }
-
-p {
-    padding: 0;
-}   
 
 footer {
-    margin-top: 1em;
+    margin-top: 2em;
     border-top: 1px solid black;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
-.caixa {
-    margin: 20px;
-    border: 1px solid black;
-    padding: 15px;
+footer p {
+    margin: 0;
+    color: #333;
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+footer .socialmedia img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
