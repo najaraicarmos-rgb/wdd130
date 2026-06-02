@@ -43,7 +43,7 @@ header nav {
 }
 
 header nav a {
-    color: var(--accent-color) !important;
+    color: var(--accent-color);
     display: block;
     padding: 15px;
     text-decoration: none;        
@@ -101,7 +101,7 @@ main {
 }
 
 .hero article p {
-    color: var(--accent-color) !important;
+    color: var(--accent-color);
     line-height: 1.6;
     font-size: 1rem;
     text-align: center;
