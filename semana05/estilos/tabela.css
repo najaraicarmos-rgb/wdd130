@@ -1,0 +1,36 @@
+.tabela-esportiva {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.tabela-esportiva th, 
+.tabela-esportiva td {
+    border: 1px solid #bcbcbc;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.tabela-esportiva thead th {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.tabela-esportiva tbody td {
+    color: #333333;
+    font-size: 15px;
+}
+
+.tabela-esportiva tbody td[rowspan] {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tabela-esportiva tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
