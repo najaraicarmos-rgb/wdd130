@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Entre em contato com a equipe da White Water Rafting. Tire suas dúvidas, faça sugestões ou localize nossa agência de aventuras.">
+    <meta name="author" content="Najara Iaci do Carmo Silva">
+    <title>Fale Conosco | White Water Rafting</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/splash.png" alt="Logo do White Water Rafting" class="logo">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main class="main-contato">
+        <h1>Fale Conosco</h1>
+
+        <section class="info-empresa">
+            <h2>Nossa Localização</h2>
+            <div class="detalhes-contato">
+                <p><strong>Endereço:</strong> Av. das Corredeiras, 1500 - Juquitiba, SP</p>
+                <p><strong>Telefone:</strong> (11) 98888-7777</p>
+                <p><strong>E-mail:</strong> contato@whitewaterrafting.com</p>
+            </div>
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.247348986221!2d-47.0726715!3d-23.9516484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceb7c0f16bf54b%3A0x6b7720935574f180!2sJuquitiba%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1717710000000"
+                    width="100%" height="300" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="equipe-secao">
+            <h2>Conheça Nossa Equipe</h2>
+            <div class="equipe-grid">
+                <figure>
+                    <img src="imagens/rafting3.jpg" alt="Foto do Guia Arthur">
+                    <figcaption><strong>Arthur Silva</strong> - Guia Chefe</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/rafting4.jpg" alt="Foto da Instrutora Selena">
+                    <figcaption><strong>Selena Ramos</strong> - Instrutora Sênior</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/rafting5.jpg" alt="Foto do Coordenador Heitor">
+                    <figcaption><strong>Heitor Souza</strong> - Segurança e Resgate</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="formulario-secao">
+            <h2>Envie uma Mensagem</h2>
+            <form class="form-contato">
+
+                <div class="campo">
+                    <label for="nome-usuario">Nome Completo:</label>
+                    <input type="text" id="nome-usuario" name="nome-usuario" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email-usuario">E-mail:</label>
+                    <input type="email" id="email-usuario" name="email-usuario" required>
+                </div>
+
+                <div class="campo-radio">
+                    <span class="titulo-grupo">Finalidade da Mensagem:</span>
+                    <label><input type="radio" name="finalidade" value="geral" checked> Consulta Geral</label>
+                    <label><input type="radio" name="finalidade" value="reserva"> Pergunta sobre Reserva</label>
+                    <label><input type="radio" name="finalidade" value="sugestao"> Sugestão de Site</label>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <div class="campo-checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                    <label for="newsletter">Quero receber a newsletter mensal</label>
+                </div>
+
+                <button type="submit">Enviar Formulário de Contato</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 White Water Rafting | Najara Iaci do Carmo Silva</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/whitewaterrafting" target="_blank">
+                <img src="imagens/facebook_220200.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/whitewaterrafting" target="_blank">
+                <img src="imagens/instagram_1384063.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/whitewaterrafting" target="_blank">
+                <img src="imagens/social_15707814.png" alt="YouTube">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
