@@ -34,6 +34,7 @@ header .logo {
 
 header nav {
     background-color: var(--primary-color); 
+    color: var(--accent-color);
     padding: 5px 10px;
     display: flex;                
     justify-content: space-evenly;
@@ -85,103 +86,4 @@ main {
     right: 0;
     text-align: center;
     color: var(--accent-color);
-    font-size: 2.5rem;
-    text-shadow: 3px 3px 6px rgba(0,0,0,0.9);
-}
-
-.hero article {
-    position: absolute;
-    bottom: 30px;
-    left: 5%;
-    right: 5%;
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.hero article p {
-    color: var(--accent-color);
-    line-height: 1.6;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.historia {
-    margin-top: 30px;
-    padding: 10px 0;
-}
-
-.historia p {
-    margin-top: 10px;
-    color: var(--text-dark);
-    line-height: 1.5;
-}
-
-.aventura-section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.aventura-section h2 {
-    margin-bottom: 15px;
-}
-
-.aventura-galeria {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    width: 100%;
-}
-
-.aventura-galeria figure {
-    margin: 0;
-    flex: 1;
-    min-width: 0;
-    text-align: center;
-    background-color: var(--bg-light);
-    padding: 6px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-.aventura-galeria figure img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 4px;
-    display: block;
-}
-
-.aventura-galeria figcaption {
-    margin-top: 8px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    color: var(--text-muted);
-}
-
-footer {
-    margin-top: 2em;
-    border-top: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    color: var(--text-dark);
-}
-
-footer .socialmedia {
-    display: flex;
-    gap: 15px;
-}
-
-footer .socialmedia img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-}
+    font-size: 2.5
